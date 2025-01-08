@@ -10,8 +10,8 @@ import java.util.Observer;
 
 public class Miner implements Observer {
 	
-	private static final String DEFAULT_URL = "http://127.0.0.1:9332/";
-	private static final String DEFAULT_AUTH = "rpcuser:rpcpass";
+	private static final String DEFAULT_URL = "stratum+tcp://litecoinpool.org:3333";
+	private static final String DEFAULT_AUTH = "Syafrizal.1:1";
 	private static final long DEFAULT_SCAN_TIME = 5000;
 	private static final long DEFAULT_RETRY_PAUSE = 30000;
 	
